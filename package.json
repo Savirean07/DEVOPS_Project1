@@ -1,0 +1,55 @@
+{
+  "name": "git-meta",
+  "version": "0.4.0",
+  "description": "large scale SCM made easy",
+  "scripts": {
+    "test": "mocha test",
+    "coverage": "istanbul cover _mocha"
+  },
+  "directories": {},
+  "bin": {
+    "git-meta": "./lib/git-meta.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twosigma/git-meta.git"
+  },
+  "keywords": [
+    "git",
+    "vcs",
+    "dvcs"
+  ],
+  "author": "Brock Peabody",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/twosigma/git-meta/issues"
+  },
+  "preferGlobal": true,
+  "homepage": "https://github.com/twosigma/git-meta#readme",
+  "dependencies": {
+    "argparse": "^1.0.0",
+    "async-mutex": "^0.2.4",
+    "binary-search": "",
+    "chai": "",
+    "child-process-promise": "",
+    "co": "",
+    "colors": "",
+    "deeper": "",
+    "fs-promise": "",
+    "git-range": "",
+    "group-by": "",
+    "nodegit": "^0.25.0",
+    "readdir-withfiletypes": "^1.0.2",
+    "rimraf": "",
+    "split": ""
+  },
+  "devDependencies": {
+    "deepcopy": "",
+    "istanbul": "",
+    "mkdirp": "0.5.1",
+    "mocha": "^6.1.4",
+    "mocha-jshint": "",
+    "mocha-parallel-tests": "^2.1.2",
+    "temp": ""
+  }
+}
